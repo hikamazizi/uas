@@ -22,7 +22,7 @@
             var dataString = "id=" + id + "&kdmenu=" + kdmenu + "&nmmenu=" + nmmenu + "&harga=" + harga + "&update=";
             $.ajax({
                 type: "POST",
-                url: "https://ilhampzzz.000webhostapp.com/cordova/www//update.php",
+                url: "https://azizihikam.000webhostapp.com/uas/UAS/www/update.php",
                 data: dataString,
                 crossDomain: true,
                 cache: false,
@@ -45,7 +45,7 @@
             var dataString = "id=" + id + "&delete=";
             $.ajax({
                 type: "GET",
-                url: "https://ilhampzzz.000webhostapp.com/cordova/www//delete.php",
+                url: "https://azizihikam.000webhostapp.com/uas/UAS/www/delete.php",
                 data: dataString,
                 crossDomain: true,
                 cache: false,
@@ -70,19 +70,19 @@
 <body>
     <div class="bar bar-header bar-positive" style="margin-bottom:80px;">
         <a href="index.html" class="button button-clear">Home</a>
-        <h4 class="kdmenu">Update Menu</h4>
-        <a class="button button-clear" href="readjson.html">Show Menu</a>
+        <h1 class="kdmenu">Update Tiket</h1>
+        <a class="button button-clear" href="readjson.html">Daftar Tiket</a>
     </div>
     <br/>
     <br/>
     <div class="list">
         <input type="hidden" id="id" value="" />
         <div class="item">
-            <label>Kd Menu</label>
+            <label>Kd Tiket</label>
             <input type="text" id="kdmenu" value="" />
         </div>
         <div class="item">
-            <label>Nama Menu</label>
+            <label>Nama Tiket</label>
             <input type="text" id="nmmenu" value="" />
         </div>
         <div class="item">
